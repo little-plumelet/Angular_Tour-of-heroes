@@ -3,6 +3,7 @@
   <a 
     *ngFor="let hero of heroes"
     class="dashboard_tab"
+    routerLink="/hero/{{hero.id}}"
   >
     {{hero.name}}
   </a>
