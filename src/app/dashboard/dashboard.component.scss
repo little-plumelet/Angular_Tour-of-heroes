@@ -1,0 +1,18 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  &_tab {
+    background-color: rgb(20, 73, 72);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &_tab:hover {
+    background-color: rgb(28, 99, 98);
+  }
+}
