@@ -15,6 +15,12 @@
     transform: translateY(-150%);
     transition: transform 1s ease-out;
   }
+
+  &_title__shadow {
+    color: rgba(68, 68, 68, 0.134);
+    position: absolute;
+    left: 1.9rem
+  }
 }
 
 .header:hover .header_title {
