@@ -1,5 +1,27 @@
 .nav {
   display: flex;
   justify-content: flex-start;
-  gap: 1rem
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #eee;
+
+  &_title {
+    margin-left: 2rem;
+    transform: translateY(-150%);
+    transition: transform 1s ease-out;
+  }
+}
+
+.header:hover .header_title {
+  transform: translateY(0%);
+  transition: transform 1s ease-out;
+}
+
+.main {
+  padding: 2rem;
 }
